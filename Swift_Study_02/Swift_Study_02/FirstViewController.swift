@@ -1,18 +1,22 @@
 //
 //  FirstViewController.swift
-//  Swift_Study_01
+//  Swift_Study_02
 //
-//  Created by 毕博洋 on 2020/7/7.
+//  Created by 毕博洋 on 2020/7/8.
 //  Copyright © 2020 毕博洋. All rights reserved.
 //
 
 import UIKit
+import Alamofire
+
 
 class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.view.backgroundColor = UIColor.white
+        
         // Do any additional setup after loading the view.
     }
     
